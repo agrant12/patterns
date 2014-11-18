@@ -38,6 +38,6 @@ if __name__ == '__main__':
 	#Instantiate Program
 	pattern_match(inFile, outFile)
 	
-	#Calculate algorithm complexity & print ot terminal
+	#Calculate algorithm complexity & print to terminal
 	t = Timer("pattern_match", "from __main__ import pattern_match")
 	print 'Runtime: ' + repr(t.timeit())
